@@ -1,0 +1,9 @@
+#Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /readmanga
+
+#Program redirect
+RewriteRule ^([\w]+)/?$ index.php?id=$1 [NC]
+RewriteRule ^([\w]+)/([\d]+)/?$ index.php?id=$1&c=$2 [NC]
+RewriteRule ^([\w]+)/([\d]+)/([\d]+)/?$ index.php?id=$1&c=$2&p=$3 [NC]
+RewriteRule ^([\w]+)/([\d]+)/([\d]+)/(.*?)/?$ index.php?id=$1&c=$2&p=$3&$4 [NC]
