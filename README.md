@@ -5,7 +5,7 @@ A proxy web page to read mangareader.net in a mobile friendly way for personal u
 
 **Features**
 * Browsing of a single manga series
-* Forward navigation by clikcin on image
+* Forward navigation by clickin on image
 * Save cookie to remember lastest page
 
 **Usage**
